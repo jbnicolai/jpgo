@@ -1,0 +1,51 @@
+{
+  "name": "jpgo",
+  "version": "0.0.1",
+  "description": "JPG Optimizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 50000"
+  },
+  "bin": {
+    "pngo": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/1000ch/jpgo.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "jpg",
+    "compress",
+    "minify",
+    "optimize",
+    "img",
+    "image"
+  ],
+  "author": {
+    "name": "1000ch",
+    "email": "shogo.sensui@gmail.com",
+    "web": "http://github.com/1000ch"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1000ch/jpgo/issues"
+  },
+  "homepage": "https://github.com/1000ch/jpgo",
+  "dependencies": {
+    "async": "^0.9.0",
+    "chalk": "^0.5.1",
+    "filesize": "^2.0.3",
+    "glob": "^4.0.5",
+    "jpeg-recompress-bin": "^0.2.0",
+    "jpegoptim-bin": "^0.1.6",
+    "minimist": "^1.1.0",
+    "mozjpeg": "^0.1.10",
+    "rimraf": "^2.2.8"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
