@@ -4,6 +4,7 @@ var async = require('async');
 
 var jpegRecompress = require('jpeg-recompress-bin');
 var jpegoptim = require('jpegoptim-bin');
+var jpegtran = require('jpegtran-bin');
 var mozjpeg = require('mozjpeg');
 
 var JPGO = module.exports = function (target) {
@@ -37,8 +38,8 @@ var JPGO = module.exports = function (target) {
     ]
   });
   this.optimizers.push({
-    name: 'mozjpeg',
-    path: mozjpeg.path,
+    name: 'jpegtran',
+    path: jpegtran.path,
     args: [
       '-optimize',
       '-progressive',

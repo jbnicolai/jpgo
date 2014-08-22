@@ -1,6 +1,6 @@
 {
   "name": "jpgo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JPG Optimizer",
   "main": "index.js",
   "scripts": {
@@ -41,6 +41,7 @@
     "glob": "^4.0.5",
     "jpeg-recompress-bin": "^0.2.0",
     "jpegoptim-bin": "^0.1.6",
+    "jpegtran-bin": "^1.0.0",
     "minimist": "^1.1.0",
     "mozjpeg": "^0.1.10",
     "rimraf": "^2.2.8"
