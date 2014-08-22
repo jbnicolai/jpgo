@@ -43,7 +43,8 @@ var JPGO = module.exports = function (target) {
     args: [
       '-optimize',
       '-progressive',
-      '-outfile' + this.target,
+      '-outfile',
+      this.target,
       this.target
     ]
   });
