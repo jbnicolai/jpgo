@@ -23,7 +23,7 @@ describe('jpgo', function () {
     new JPGO(after).optimize(function (error, data) {
       
       assert(!error);
-      assert(data.before.size > data.after.size);
+      assert(data.beforeSize > data.afterSize);
       
       callback();
     });
@@ -38,7 +38,7 @@ describe('jpgo', function () {
     new JPGO(after).optimize(function (error, data) {
 
       assert(!error);
-      assert(data.before.size > data.after.size);
+      assert(data.beforeSize > data.afterSize);
 
       callback();
     });
