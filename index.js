@@ -69,7 +69,7 @@ JPGO.prototype.optimize = function (callback) {
     afterSize = fs.statSync(target).size;
     callback(error, {
       beforeSize: beforeSize,
-      after: afterSize
+      afterSize: afterSize
     });
   });
 };
