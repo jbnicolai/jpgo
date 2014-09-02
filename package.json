@@ -1,13 +1,13 @@
 {
   "name": "jpgo",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "JPG Optimizer",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --timeout 50000"
   },
   "bin": {
-    "pngo": "cli.js"
+    "jpgo": "cli.js"
   },
   "repository": {
     "type": "git",
