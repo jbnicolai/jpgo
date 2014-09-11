@@ -39,11 +39,11 @@
     "chalk": "^0.5.1",
     "filesize": "^2.0.3",
     "glob": "^4.0.5",
-    "jpeg-recompress-bin": "^0.2.0",
+    "jpeg-recompress-bin": "^1.0.2",
     "jpegoptim-bin": "^0.1.6",
-    "jpegtran-bin": "^1.0.0",
+    "jpegtran-bin": "^1.0.2",
     "minimist": "^1.1.0",
-    "mozjpeg": "^0.1.10",
+    "mozjpeg": "^1.0.1",
     "rimraf": "^2.2.8"
   },
   "devDependencies": {
